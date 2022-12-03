@@ -1,0 +1,322 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(185, 41%, 84%);
+}
+
+/* .section{
+    width: 70%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+} */
+
+.textos{
+    margin-top: 4%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: hsl(183, 100%, 15%);
+}
+
+.contenedor{
+    width: 50%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedorOne{
+    width: 45%;
+    background-color: white;
+    height: 350px;
+    margin-left: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: hsl(186, 14%, 43%);
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.spanAlerta{
+    width: 100%;
+    background-color: hsl(185, 41%, 84%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 40px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.descuentos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.selectText{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+
+.descuentos button {
+    width: 31%;
+    height: 40px;
+    background-color: hsl(183, 100%, 15%);
+    border: 1px solid hsl(183, 100%, 15%);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.descuentoSix{
+    width: 31%;
+    background-color: white;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+
+.numeroDePersonas{
+    font-size: 15px;
+    letter-spacing: normal;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+form{
+    position: relative;
+    width: 100;
+    display: flex;
+    align-items: center;
+}
+
+form input {
+    text-indent: 95%;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    background-color: hsl(185, 41%, 84%);
+    border: 1px solid hsl(185, 41%, 84%);
+    border-radius: 5px;
+    color: hsl(183, 100%, 15%);
+}
+
+.bi{
+    position: absolute;
+    margin-left: 10px;
+}
+
+.contenedorTwo{
+    width: 45%;
+    background-color: hsl(183, 100%, 15%);
+    height: 350px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.contenedorMoney{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 20px 0px 20px;
+    align-items: center;
+}
+
+.tip{
+    display: inline-block;
+    height: 45px;
+    position: relative;
+    color: white;
+    font-weight: 700;
+}
+
+.tip span{
+    position: absolute;
+    bottom: 0;
+    color: hsl(186, 14%, 43%);
+}
+
+.amount{
+    font-size: 40px;
+    font-weight: bold;
+    color: hsl(172, 67%, 45%);
+}
+
+.contenedorMoneyOne{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 0px 20px;
+    align-items: center;
+}
+
+.tipOne{
+    display: inline-block;
+    height: 45px;
+    position: relative;
+    color: white;
+    font-weight: 700;
+    width: 50%;
+}
+
+.tipOne span{
+    position: absolute;
+    bottom: 0;
+    color: hsl(186, 14%, 43%);
+}
+
+.total{
+    font-size: 40px;
+    font-weight: bold;
+    color: hsl(172, 67%, 45%);
+}
+
+.reset{
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding: 5px 0px;
+    background-color: #0D686D;
+    border: 1px solid #0D686D;
+    border-radius: 5px;
+    margin-top: 110px;
+    color: hsl(183, 100%, 15%);
+}
+
+@media (max-width : 600px) {
+
+    /* .textos{
+        margin-top: 70px;
+    } */
+
+    .contenedor{
+        display: block;
+        width: 100%;
+        border-radius: 0;
+        height: 100vh;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border: 1px solid white;
+    }
+
+    .descuentos{
+        /* justify-content: center; */
+        gap: 20px;
+    }
+
+    .descuentos button{
+        width: 46%;
+        height: 48px;
+        /* justify-content: center; */
+    }
+
+    .descuentoSix{
+        width: 46%;
+        height: 48px;
+    }
+
+    .contenedorOne{
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .contenedorTwo{
+        width: 90%;
+        height: 270px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contenedorMoney{
+        margin-top: 120px;
+    }
+
+    .tip, .amount{
+        margin-top: 40px;
+    }
+
+    .reset{
+        margin-top: 30px;
+        padding: 10px 0px;
+    }
+}
+
+@media screen and (min-width : 601px) and (max-width : 900px) {
+
+    .contenedor{
+        display: block;
+        width: 80%;
+        border-radius: 0;
+        height: 100vh;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border: 1px solid white;
+    }
+
+    .descuentos{
+        /* justify-content: center; */
+        gap: 20px;
+    }
+
+    .descuentos button{
+        width: 46%;
+        height: 48px;
+        /* justify-content: center; */
+    }
+
+    .descuentoSix{
+        width: 46%;
+        height: 48px;
+    }
+
+    .contenedorOne{
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .contenedorTwo{
+        width: 90%;
+        height: 270px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contenedorMoney{
+        margin-top: 120px;
+    }
+
+    .tip, .amount{
+        margin-top: 40px;
+    }
+
+    .reset{
+        margin-top: 30px;
+        padding: 10px 0px;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1267px) {
+    .contenedor{
+        width: 70%;
+        height: 460px;
+    }
+}
