@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,10 +34,13 @@
                         <input class="descuentoSix" placeholder="Custom"></input>
                     </div>
 
-                    <p class="numeroDePersonas">Number of People</p>
+                    <div class="textError">
+                        <p class="numeroDePersonas">Number of People</p>
+                        <p class="nuevoError"></p>
+                    </div>
                     <form>
                         <i class="bi bi-person-fill"></i>
-                        <input onkeyup="personas(this.value)" type="text" placeholder="0">
+                        <input id="inputPerson" type="text" placeholder="0">
                     </form>
                 </div>
 
